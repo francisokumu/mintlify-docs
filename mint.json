@@ -18,12 +18,12 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@zed.co.ug"
+      "name": "ZedTech website",
+      "url": "https://www.zed.co.ug"
     },
     {
-      "name": "Main Website",
-      "url": "https://www.zed.co.ug"
+      "name": "Support",
+      "url": "mailto:hi@zed.co.ug"
     }
   ],
   "topbarCtaButton": {
@@ -32,29 +32,32 @@
   },
   "tabs": [
     {
-      "name": "CashFlow API",
+      "name": "Products",
+      "url": "products"
+    },
+    {
+      "name": "Integrations",
+      "url": "integrations"
+    },
+    {
+      "name": "API documentation",
       "url": "cashflow-api"
     },
     {
-      "name": "ZedPay API",
+      "name": "Change Log",
       "url": "api-reference"
     }
   ],
   "anchors": [
     {
       "name": "Home",
-      "icon": "book-open-cover",
+      "icon": "globe",
       "url": "https://docs.zed.co.ug"
     },
     {
-      "name": "Main Website",
+      "name": "Pricing",
       "icon": "globe",
-      "url": "https://www.zed.co.ug"
-    },
-    {
-      "name": "CashFlow Website",
-      "icon": "globe",
-      "url": "https://www.cashflow.co.ug"
+      "url": "https://docs.zed.co.ug/pricing/products-pricing"
     }
   ],
   "navigation": [
@@ -63,7 +66,9 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development"
+        "development",
+        "products/introduction",
+        "integrations/introduction"
       ]
     },
     {
@@ -91,8 +96,21 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete",
         "cashflow-api/endpoint/get",
-        "cashflow-api/endpoint/create",
-        "cashflow-api/endpoint/delete"
+        "cashflow-api/endpoint/create"
+      ]
+    },
+    {
+      "group": "Mobile Money Payments",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create"
+      ]
+    },
+    {
+      "group": "Card Payments",
+      "pages": [
+        "api-reference/endpoints/get",
+        "api-reference/endpoints/create"
       ]
     }
   ],
