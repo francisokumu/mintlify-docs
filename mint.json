@@ -1,43 +1,48 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "ZedTech Financial Solutions",
+  "theme": "venus",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#1b55e2",
     "light": "#07C983",
-    "dark": "#0D9373",
+    "dark": "#87CEEB",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#1b55e2",
+      "to": "#0F52BA"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
       "url": "mailto:hi@zed.co.ug"
+    },
+    {
+      "name": "Main Website",
+      "url": "https://www.zed.co.ug"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://app.cashflow.co.ug"
   },
   "tabs": [
     {
-      "name": "ZedPay API",
-      "url": "api-reference"
-    },
-    {
       "name": "CashFlow API",
       "url": "cashflow-api"
+    },
+    {
+      "name": "ZedPay API",
+      "url": "api-reference"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Home",
       "icon": "book-open-cover",
       "url": "https://docs.zed.co.ug"
     },
@@ -75,7 +80,8 @@
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction"
+        "api-reference/introduction",
+        "cashflow-api/introduction"
       ]
     },
     {
@@ -83,13 +89,16 @@
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/delete",
+        "cashflow-api/endpoint/get",
+        "cashflow-api/endpoint/create",
+        "cashflow-api/endpoint/delete"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/zedtech_ug",
+    "github": "https://github.com/zedtech-ug",
+    "linkedin": "https://linkedin.com/company/zedtech_ug"
   }
 }
