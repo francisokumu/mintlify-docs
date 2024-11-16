@@ -27,7 +27,11 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "ZedPay API",
+      "url": "api-reference"
+    },
+    {
+      "name": "CashFlow API",
       "url": "api-reference"
     }
   ],
