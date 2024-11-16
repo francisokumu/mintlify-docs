@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hi@zed.co.ug"
     }
   ],
   "topbarCtaButton": {
@@ -39,17 +39,22 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.zed.co.ug"
     },
     {
-      "name": "ZedTech Website",
+      "name": "Main Website",
       "icon": "globe",
       "url": "https://www.zed.co.ug"
     },
     {
-      "name": "Blog",
+      "name": "CashFlow Website",
+      "icon": "globe",
+      "url": "https://www.cashflow.co.ug"
+    },
+    {
+      "name": "Kumusoft Website",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://www.kumusoft.com"
     }
   ],
   "navigation": [
